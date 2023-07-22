@@ -11,45 +11,20 @@ public class controlador {
     private FmrLogin Fmrlogin = new FmrLogin(this);
     private FmrAdministrador FmrAdministrador = new FmrAdministrador(this);
     public void mostrarAdministrador(){
-        getFmrAdministrador().setVisible(true);
+        FmrAdministrador.setVisible(true);
     }
+    public void ocultarAdministrador(){
+        FmrAdministrador.setVisible(false);
+    }
+    
     public void Mostrarlogin(){
-        getFmrlogin().setVisible(true);
+        Fmrlogin.setVisible(true);
+    }
+    public void ocultarlogin(){
+        Fmrlogin.setVisible(false);
+    }
     }
 
-    /**
-     * @return the Fmrlogin
-     */
-    public FmrLogin getFmrlogin() {
-        return Fmrlogin;
-    }
-
-    /**
-     * @param Fmrlogin the Fmrlogin to set
-     */
-    public void setFmrlogin(FmrLogin Fmrlogin) {
-        this.Fmrlogin = Fmrlogin;
-    }
-
-    /**
-     * @return the FmrAdministrador
-     */
-    public FmrAdministrador getFmrAdministrador() {
-        return FmrAdministrador;
-    }
-
-    /**
-     * @param FmrAdministrador the FmrAdministrador to set
-     */
-    public void setFmrAdministrador(FmrAdministrador FmrAdministrador) {
-        this.FmrAdministrador = FmrAdministrador;
-    }
-
-    public void OcultarAdministrador() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void Ocultarlogin() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-}
+    
+            
+   

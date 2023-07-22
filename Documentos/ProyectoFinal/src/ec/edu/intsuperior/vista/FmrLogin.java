@@ -151,7 +151,7 @@ public class FmrLogin extends javax.swing.JFrame {
       } else {
      }
     controlador.mostrarAdministrador();
-    controlador.Ocultarlogin();
+    controlador.ocultarlogin();
         // TODO add your handling code here:
     }//GEN-LAST:event_BtnIngresarActionPerformed
 
